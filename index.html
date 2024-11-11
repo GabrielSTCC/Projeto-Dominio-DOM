@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de taredas - Projeto inal JavaScript DNC</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Lista de taredas</h1>
+        <section id="create-todo-section">
+            <form id="create-todo-form">
+                <input type="text" 
+                id="description" 
+                name="description" 
+                class="input-description"
+                aria-label="Qual a tarefa deseja cadastrar?"
+                placeholder="Qual a tarefa deseja cadastrar?" 
+                autocomplete="off"/>
+                <button type="submit" aria-label="Cadastrar tarefa" class="add-task-btn">+</button>
+            </form>
+        </section>
+        <section class="todo-list-section">
+            <ul id="todo-list"></ul>
+        </section>
+    </main>
+</body>
+</html>
